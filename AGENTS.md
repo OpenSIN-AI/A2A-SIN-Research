@@ -1,13 +1,13 @@
 # Agent: A2A-SIN-Research
 
-**Team:** OpenSIN-AI
-**Protocol:** A2A (Agent-to-Agent)
-**Status:** Active
+**Team:** Team - Marketing  
+**Protocol:** A2A (Agent-to-Agent)  
+**Status:** Active  
 **Repository:** https://github.com/OpenSIN-AI/A2A-SIN-Research
 
 ## Capabilities
 
-Research agent for multi-source information gathering and analysis.
+Research and intelligence gathering A2A agent
 
 ## Communication
 
