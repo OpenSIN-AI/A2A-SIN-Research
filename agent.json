@@ -1,1 +1,35 @@
-{"id":"sin-research","displayName":"sin research","team":"team-research","description":"Research integration — autonomous research and analysis.","version":"1.0.0","deployment":{"workforceIndex":"https://a2a.delqhi.com","landingPage":"https://a2a.delqhi.com/agents/sin-research","publicA2A":"https://a2a.delqhi.com/agents/sin-research","cimdAnchor":"https://a2a.delqhi.com/agents/sin-research"},"a2a":{"wellKnownCard":"/.well-known/agent-card.json","rpcPath":"/a2a/v1","transport":"jsonrpc-over-http"},"mcp":{"transport":"stdio","configPath":"./mcp-config.json"},"marketplace":{"pricingModel":"standard_tier","monthlyPrice":999,"purchaseModes":["subscription"],"category":"research"},"primaryModel":"openai/gpt-5.4"}
+{
+  "name": "A2A-SIN-Research",
+  "slug": "a2a-sin-research",
+  "type": "Research Agent",
+  "description": "Deep Research agent",
+  "team": "Team Research",
+  "teamManager": "A2A-SIN-Research",
+  "primaryModel": "google/antigravity-gemini-3.1-pro",
+  "capabilities": [
+    "deep_research",
+    "synthesis",
+    "reporting"
+  ],
+  "marketplace": {
+    "pricingModel": "subscription",
+    "monthlyPrice": 29.99,
+    "purchaseModes": [
+      "monthly",
+      "annual"
+    ],
+    "category": "research"
+  },
+  "controlPlane": {
+    "healthEndpoint": "/health",
+    "cardEndpoint": "/.well-known/agent-card.json",
+    "a2aEndpoint": "/a2a/v1"
+  },
+  "deployment": {
+    "workforceIndex": "team-research",
+    "landingPage": "https://a2a.delqhi.com/agents/a2a-sin-research",
+    "publicA2A": "https://a2a.delqhi.com/a2a/v1/a2a-sin-research",
+    "cimdAnchor": "https://a2a.delqhi.com/agents/a2a-sin-research",
+    "vmServer": "hf-cpu-basic"
+  }
+}
