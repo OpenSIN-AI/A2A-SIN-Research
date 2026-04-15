@@ -27,9 +27,9 @@
   },
   "deployment": {
     "workforceIndex": "team-research",
-    "landingPage": "https://a2a.delqhi.com/agents/a2a-sin-research",
-    "publicA2A": "https://a2a.delqhi.com/a2a/v1/a2a-sin-research",
-    "cimdAnchor": "https://a2a.delqhi.com/agents/a2a-sin-research",
+    "landingPage": "https://chat.opensin.ai/agents/a2a-sin-research",
+    "publicA2A": "https://chat.opensin.ai/a2a/v1/a2a-sin-research",
+    "cimdAnchor": "https://chat.opensin.ai/agents/a2a-sin-research",
     "vmServer": "hf-cpu-basic"
   }
 }
