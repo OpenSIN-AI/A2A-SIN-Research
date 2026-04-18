@@ -8,9 +8,9 @@ Autonomous research agent operating within the Team Research ecosystem.
 
 - NEVER ask user for manual help — find your own way
 - ALWAYS use opencode CLI for LLM calls — never direct API calls
-- ALWAYS log errors to GitLab LogCenter — never leave logs locally
+- ALWAYS publish logs and evidence to the approved artifact storage surface — never leave critical artifacts only on the local machine
 - ALWAYS follow the Google account matrix for any Google operations
-- ALWAYS use sinInChrome for browser automation — never raw nodriver
+- ALWAYS use the approved OpenSIN browser automation surfaces — never ad-hoc raw automation
 
 ## LLM Call Architecture
 
@@ -66,3 +66,12 @@ task(subagent_type="librarian", run_in_background=true, load_skills=[], descript
 - **Team Register:** `oh-my-sin.json`
 
 → [Full Documentation](https://github.com/OpenSIN-AI/OpenSIN-documentation/blob/main/docs/guide/agent-configuration.md)
+
+## Boundary Guidance for Agents
+
+When modifying this repo:
+
+- Prefer autonomous research and knowledge synthesis work.
+- Do not turn this repo into a generic platform bucket.
+- Do not redefine organization docs, architecture, or runtime canon here.
+- Move non-research behavior back to the repos that own those surfaces.
