@@ -36,4 +36,4 @@ Bei grossen Codebases (100k+ Zeilen) MUSS der Agent **5-10 parallele explore + 5
 
 ## License
 
-MIT
+Apache-2.0
