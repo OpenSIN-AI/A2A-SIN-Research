@@ -67,6 +67,13 @@ task(subagent_type="librarian", run_in_background=true, load_skills=[], descript
 
 → [Full Documentation](https://github.com/OpenSIN-AI/OpenSIN-documentation/blob/main/docs/guide/agent-configuration.md)
 
+## Web Search Tools
+
+For multi-source research, use the unified `sin-websearch` stack:
+- MCP tools: `websearch_search`, `websearch_pulse`, `websearch_resolve`, `websearch_alchemist`
+- Active repo: `OpenSIN-Code/web_search_bundle`
+- Deprecated (archived): `OpenSIN-Code/SIN-Code-Websearch-Skill`, `OpenSIN-Code/SIN-Websearch-SerpAPI-Bundle`
+
 ## Boundary Guidance for Agents
 
 When modifying this repo:
